@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE46D66F2923EDF1006D95ED /* MainMenu.sks in Resources */ = {isa = PBXBuildFile; fileRef = CE46D66E2923EDF1006D95ED /* MainMenu.sks */; };
+		CE46D6712923F13B006D95ED /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46D6702923F13B006D95ED /* MainMenu.swift */; };
 		CE58307729203FED00571914 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE58307629203FED00571914 /* AppDelegate.swift */; };
 		CE58307929203FEE00571914 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CE58307829203FEE00571914 /* GameScene.sks */; };
 		CE58307B29203FEE00571914 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = CE58307A29203FEE00571914 /* Actions.sks */; };
@@ -18,6 +20,10 @@
 		CE58309129203FEE00571914 /* BusychSrusychTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE58309029203FEE00571914 /* BusychSrusychTests.swift */; };
 		CE58309B29203FEE00571914 /* BusychSrusychUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE58309A29203FEE00571914 /* BusychSrusychUITests.swift */; };
 		CE58309D29203FEE00571914 /* BusychSrusychUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE58309C29203FEE00571914 /* BusychSrusychUITestsLaunchTests.swift */; };
+		CE5830AB2920427400571914 /* bullet.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE5830A92920427400571914 /* bullet.mp3 */; };
+		CE5830AC2920427400571914 /* vzriv.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE5830AA2920427400571914 /* vzriv.mp3 */; };
+		CE5830B52920448200571914 /* Vzriv.sks in Resources */ = {isa = PBXBuildFile; fileRef = CE5830B32920448200571914 /* Vzriv.sks */; };
+		CE5830B62920448200571914 /* Starfield.sks in Resources */ = {isa = PBXBuildFile; fileRef = CE5830B42920448200571914 /* Starfield.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE46D66E2923EDF1006D95ED /* MainMenu.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainMenu.sks; sourceTree = "<group>"; };
+		CE46D6702923F13B006D95ED /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
 		CE58307329203FED00571914 /* BusychSrusych.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BusychSrusych.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE58307629203FED00571914 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE58307829203FEE00571914 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -52,6 +60,10 @@
 		CE58309629203FEE00571914 /* BusychSrusychUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BusychSrusychUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE58309A29203FEE00571914 /* BusychSrusychUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusychSrusychUITests.swift; sourceTree = "<group>"; };
 		CE58309C29203FEE00571914 /* BusychSrusychUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusychSrusychUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CE5830A92920427400571914 /* bullet.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bullet.mp3; sourceTree = "<group>"; };
+		CE5830AA2920427400571914 /* vzriv.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = vzriv.mp3; sourceTree = "<group>"; };
+		CE5830B32920448200571914 /* Vzriv.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = Vzriv.sks; path = "../../../Desktop/Файлы/Vzriv.sks"; sourceTree = "<group>"; };
+		CE5830B42920448200571914 /* Starfield.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = Starfield.sks; path = "../../../Desktop/Файлы/Starfield.sks"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,12 +114,18 @@
 		CE58307529203FED00571914 /* BusychSrusych */ = {
 			isa = PBXGroup;
 			children = (
+				CE5830A92920427400571914 /* bullet.mp3 */,
+				CE5830AA2920427400571914 /* vzriv.mp3 */,
+				CE5830B42920448200571914 /* Starfield.sks */,
+				CE5830B32920448200571914 /* Vzriv.sks */,
 				CE58307629203FED00571914 /* AppDelegate.swift */,
 				CE58307829203FEE00571914 /* GameScene.sks */,
 				CE58307A29203FEE00571914 /* Actions.sks */,
 				CE58307C29203FEE00571914 /* GameScene.swift */,
 				CE58307E29203FEE00571914 /* GameViewController.swift */,
 				CE58308029203FEE00571914 /* Main.storyboard */,
+				CE46D66E2923EDF1006D95ED /* MainMenu.sks */,
+				CE46D6702923F13B006D95ED /* MainMenu.swift */,
 				CE58308329203FEE00571914 /* Assets.xcassets */,
 				CE58308529203FEE00571914 /* LaunchScreen.storyboard */,
 			);
@@ -236,9 +254,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE58308229203FEE00571914 /* Main.storyboard in Resources */,
+				CE5830B52920448200571914 /* Vzriv.sks in Resources */,
 				CE58307929203FEE00571914 /* GameScene.sks in Resources */,
+				CE46D66F2923EDF1006D95ED /* MainMenu.sks in Resources */,
+				CE5830AC2920427400571914 /* vzriv.mp3 in Resources */,
 				CE58308429203FEE00571914 /* Assets.xcassets in Resources */,
 				CE58308729203FEE00571914 /* LaunchScreen.storyboard in Resources */,
+				CE5830B62920448200571914 /* Starfield.sks in Resources */,
+				CE5830AB2920427400571914 /* bullet.mp3 in Resources */,
 				CE58307B29203FEE00571914 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,6 +290,7 @@
 				CE58307D29203FEE00571914 /* GameScene.swift in Sources */,
 				CE58307F29203FEE00571914 /* GameViewController.swift in Sources */,
 				CE58307729203FED00571914 /* AppDelegate.swift in Sources */,
+				CE46D6712923F13B006D95ED /* MainMenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +467,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NXX7YKBLHA;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -470,6 +495,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NXX7YKBLHA;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
